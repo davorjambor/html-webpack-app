@@ -11,7 +11,7 @@ let webpackConfig = {
         'index.html': [
             './src/index.html',
         ],
-        'css/style.css': [
+        'css/app.css': [
             './src/sass/app.scss',
         ],
         'js/app.js': [

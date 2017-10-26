@@ -1,7 +1,7 @@
 import ExtractTextPlugin from 'extract-text-webpack-plugin';
 import autoprefixer from 'autoprefixer';
 
-let extractStyleCSSLet = new ExtractTextPlugin('css/style.css');
+let extractStyleCSSLet = new ExtractTextPlugin('css/app.css');
 
 let styleLoaderLet = {
     test: /\.(s?)css$/,
